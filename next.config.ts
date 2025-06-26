@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  basePath: "/reborn",
+  images: { unoptimized: true },
+  output: "export",  // <=== enables static exports
 };
 
 export default nextConfig;
